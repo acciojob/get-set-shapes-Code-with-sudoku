@@ -1,6 +1,4 @@
-//complete this code
-class Rectangle {
-	Get Set Shapes class Rectangle {
+Get Set Shapes class Rectangle {
 
 	constructor(width,height){
 		this._width = width;
@@ -21,8 +19,6 @@ class Rectangle {
 	
 }
 
-
-class Square extends Animal {
 class Square extends Rectangle {
 
 	constructor(side) {
@@ -33,8 +29,5 @@ class Square extends Rectangle {
 	    return 4 * this._width; 
   }
 }
-// Do not change the code below this line
-window.Rectangle = Rectangle;
-window.Square = Square;
 
 
